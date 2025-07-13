@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <main id="home" className="relative h-[calc(100vh-6rem)] w-full overflow-hidden" role="main">
+    <section id="home" className="relative h-[calc(100vh-6rem)] w-full overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -19,7 +19,6 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-qmos-light mb-6 leading-tight animate-fadeIn">
               WHERE SILICON MEETS INNOVATION
             </h1>
-            <h2 className="sr-only">Qmos Technology - Semiconductor Design Services</h2>
             <p className="text-lg md:text-xl text-qmos-light/90 mb-8 leading-relaxed">
               For semiconductor OEMs, fabless design houses, and electronic system design firms, 
               QMOS provides excellent semiconductor design services.
