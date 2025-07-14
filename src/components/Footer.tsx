@@ -156,7 +156,7 @@ const Footer = () => {
 
             <div>
               <span>
-                &copy; Copyright 2024 {""}
+                &copy; Copyright 2025 {""}
                 <a
                   href="https://qourin.com"
                   target="_blank"
