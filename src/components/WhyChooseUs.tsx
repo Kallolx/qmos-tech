@@ -44,9 +44,9 @@ const WhyChooseUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="md:bg-white p-8 rounded-2xl shadow-card transition-all duration-300 text-center relative"
+              className="md:bg-white p-0 rounded-2xl shadow-card transition-all duration-300 text-center relative h-[360px] flex items-center justify-center"
             >
-              <div className="bg-white rounded-xl shadow-[0_12px_15px_-3px_rgba(0,0,0,0.75)] p-4 relative z-10 mx-2 flex flex-col items-center justify-center min-h-[340px] transition-all duration-300 hover:scale-95 cursor-pointer">
+              <div className="bg-white rounded-xl shadow-[0_10px_15px_-2px_rgba(0,0,0,0.95)] p-6 relative z-10 flex flex-col items-center justify-center w-[94%] h-[94%] mx-auto transition-all duration-300 hover:scale-95 cursor-pointer">
                 <div className="flex items-center justify-center mx-auto mb-4">
                   <img
                     src={feature.icon}
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
                 <h3 className="text-2xl font-extrabold text-qmos-primary mb-4 text-center">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground leading-relaxed text-center">
+                <p className="text-black font-semibold leading-tight text-center">
                   {feature.description}
                 </p>
               </div>
