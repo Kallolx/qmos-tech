@@ -27,7 +27,7 @@ const OurMission = () => {
             </div>
 
             {/* Content Section */}
-            <div className="p-8 lg:p-12 flex flex-col justify-center backdrop-blur-sm">
+            <div className="p-8 lg:p-12 flex flex-col justify-center bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-sm">
               <h2 className="text-xl text-center p-2 border border-white font-bold text-white mb-6">
                 Why QMOS Technology ?
               </h2>

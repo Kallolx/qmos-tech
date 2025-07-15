@@ -119,10 +119,10 @@ const Footer = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="flex flex-col items-center md:items-start text-center md:text-left">
-              <h2 className="text-xl font-semibold mb-6">Contact Us</h2>
+            <div className="flex flex-col items-center md:items-center text-center md:text-left">            
               <div className="space-y-4">
                 <div>
+                  <h1 className="text-2xl font-semibold mb-6">Contact Us</h1>
                   <h4 className="font-semibold text-lg mb-2">
                     QMOS Technology
                   </h4>
